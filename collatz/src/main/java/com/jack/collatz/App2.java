@@ -20,7 +20,7 @@ public class App2
 
             int result = iteration; 
 
-            while (result < iteration) {
+            while (result > iteration) {
                 // if highest
                 if (result > highest) {
                     highest = result; 
