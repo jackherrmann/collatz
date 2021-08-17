@@ -20,7 +20,7 @@ public class App
         System.out.println("Iteration: " + iteration.toString()); 
         System.out.println("iteration.max(stopPoint): " + iteration.max(stopPoint)); 
 
-        while (iteration.max(stopPoint).equals(iteration)) {
+        while (iteration.max(stopPoint).equals(stopPoint)) {
 
             System.out.println("Looping"); 
 
