@@ -4,7 +4,7 @@ package com.jack.collatz;
  * Hello world!
  *
  */
-public class App 
+public class App2
 {
     public static void main( String[] args )
     {
