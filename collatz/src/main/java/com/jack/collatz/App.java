@@ -11,11 +11,11 @@ public class App
     {
         BigInteger iteration = BigInteger.TWO; 
         BigInteger highest = BigInteger.TWO; 
-        BigInteger stopPoint = BigInteger.TEN.pow(9);
+        BigInteger stopPoint = BigInteger.TEN.pow(6);
 
         BigInteger three = BigInteger.ONE.add(BigInteger.TWO); 
 
-        System.out.println("Starting"); 
+        System.out.println("Starting app1"); 
 
         while (iteration.max(stopPoint).equals(stopPoint)) {
 
