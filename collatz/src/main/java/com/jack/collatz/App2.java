@@ -39,6 +39,6 @@ public class App2
             iteration++; 
         } 
 
-        System.out.println("Finished with highest: " + highest.toString()); 
+        System.out.println("Finished with highest: " + highest); 
     }
 }
