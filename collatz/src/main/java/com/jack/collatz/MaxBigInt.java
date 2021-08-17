@@ -10,8 +10,8 @@ public class MaxBigInt
 
 
     public static void printBigInt(int power) {
-        System.out.println("10^" + power + "="); 
-        System.out.println(BigInteger.TEN.pow(power)); 
+        System.out.println("2^" + power + "="); 
+        System.out.println(BigInteger.TWO.pow(power)); 
         System.out.println(); 
         System.out.println(); 
         System.out.println(); 
