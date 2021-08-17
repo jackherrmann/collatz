@@ -9,6 +9,9 @@ public class App
 {
     public static void main( String[] args )
     {
+        System.out.println(args[0]); 
+        int maxPow = Integer.parseInt(args[0]); 
+
         BigInteger iteration = BigInteger.TWO; 
         BigInteger highest = BigInteger.TWO; 
         BigInteger stopPoint = BigInteger.TEN.pow(3);

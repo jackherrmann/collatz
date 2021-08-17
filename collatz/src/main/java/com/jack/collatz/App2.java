@@ -8,9 +8,12 @@ public class App2
 {
     public static void main( String[] args )
     {
+        System.out.println(args[0]); 
+        int maxPow = Integer.parseInt(args[0]); 
+
         int iteration = 2; 
         int highest = 2; 
-        int stopPoint = 1000;
+        int stopPoint = Math.pow(10, maxPow);
 
         int three = 3; 
 
