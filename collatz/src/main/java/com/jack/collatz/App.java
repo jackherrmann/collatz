@@ -16,6 +16,9 @@ public class App
         BigInteger three = BigInteger.ONE.add(BigInteger.TWO); 
 
         System.out.println("Starting"); 
+        System.out.println("StopPoint: " + stopPoint.toString()); 
+        System.out.println("Iteration: " + iteration.toString()); 
+        System.out.println("iteration.max(stopPoint): " + iteration.max(stopPoint)); 
 
         while (iteration.max(stopPoint).equals(iteration)) {
 
