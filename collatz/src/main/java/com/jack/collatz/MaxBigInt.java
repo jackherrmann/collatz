@@ -30,7 +30,11 @@ public class MaxBigInt
         printBigInt(200); 
         printBigInt(300); 
         printBigInt(500);
-        printBigInt(1000);  
+        printBigInt(1000); 
+        printBigInt(10000);
+        printBigInt(100000);
+        printBigInt(1000000); 
+
 
     }
 }
