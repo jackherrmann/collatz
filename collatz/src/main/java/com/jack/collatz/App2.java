@@ -8,6 +8,8 @@ public class App2
 {
     public static void main( String[] args )
     {
+        long startTime = System.getTimeInMillis(); 
+
         System.out.println(args[0]); 
         int maxPow = Integer.parseInt(args[0]); 
 
@@ -17,7 +19,7 @@ public class App2
 
         int three = 3; 
 
-        System.out.println("Starting app2"); 
+        System.out.println("Starting app2 with max 10^" + args[0]); 
 
         while (iteration <= stopPoint) {
 
@@ -42,7 +44,11 @@ public class App2
             iteration++; 
         } 
 
-        System.out.println("Finished with highest: " + highest); 
+        System.out.println("Finished with highest: " + highest.toString()); 
+        long endTime = System.getTimeInMillis(); 
+        long totalTime = endTime - startTime; 
+        int seconds = totalTime / 1000; 
+        System.out.println("Time: " + seconds);  
     }
 }
 
