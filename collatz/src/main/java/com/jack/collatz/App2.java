@@ -44,7 +44,7 @@ public class App2
             iteration++; 
         } 
 
-        System.out.println("Finished with highest: " + highest.toString()); 
+        System.out.println("Finished with highest: " + highest); 
         long endTime = System.currentTimeMillis(); 
         long totalTime = (endTime - startTime); 
         System.out.println("Time: " + totalTime); 
