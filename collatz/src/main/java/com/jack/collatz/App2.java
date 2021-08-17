@@ -10,7 +10,7 @@ public class App2
     {
         int iteration = 2; 
         int highest = 2; 
-        int stopPoint = 1000000;
+        int stopPoint = 1000;
 
         int three = 3; 
 
@@ -42,3 +42,4 @@ public class App2
         System.out.println("Finished with highest: " + highest); 
     }
 }
+

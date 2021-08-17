@@ -11,7 +11,7 @@ public class App
     {
         BigInteger iteration = BigInteger.TWO; 
         BigInteger highest = BigInteger.TWO; 
-        BigInteger stopPoint = BigInteger.TEN.pow(6);
+        BigInteger stopPoint = BigInteger.TEN.pow(3);
 
         BigInteger three = BigInteger.ONE.add(BigInteger.TWO); 
 
