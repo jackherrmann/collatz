@@ -48,6 +48,7 @@ public class App
         } 
 
         System.out.println("Finished with highest: " + highest.toString()); 
+        System.out.println("2^64=" + BigInteger.TWO.pow(64).toString()); 
         long endTime = System.currentTimeMillis(); 
         long totalTime = (endTime - startTime); 
         System.out.println("Time: " + totalTime); 
