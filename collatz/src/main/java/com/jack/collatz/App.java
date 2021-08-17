@@ -19,12 +19,14 @@ public class App
 
         while (iteration.max(stopPoint).equals(iteration)) {
 
+            System.out.println("Looping"); 
+
             BigInteger result = BigInteger.ZERO.add(iteration); 
 
             while (result.max(iteration).equals(result)) {
                 // if highest
                 if (result.max(highest).equals(result)) {
-                    highest = result; 
+                    highest = result.add(BigInteger.ZERO); 
                 }
                 // if even
                 if (result.mod(BigInteger.TWO).equals(BigInteger.ONE)) {
