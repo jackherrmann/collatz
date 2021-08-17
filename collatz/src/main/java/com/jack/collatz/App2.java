@@ -13,7 +13,7 @@ public class App2
 
         int iteration = 2; 
         int highest = 2; 
-        int stopPoint = Math.pow(10, maxPow);
+        int stopPoint = (int) Math.pow(10, maxPow);
 
         int three = 3; 
 
