@@ -16,7 +16,7 @@ public class App2
 
         System.out.println("Starting app2"); 
 
-        while (iteration < stopPoint) {
+        while (iteration <= stopPoint) {
 
             int result = iteration; 
 
