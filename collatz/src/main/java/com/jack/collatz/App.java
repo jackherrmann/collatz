@@ -49,8 +49,7 @@ public class App
 
         System.out.println("Finished with highest: " + highest.toString()); 
         long endTime = System.currentTimeMillis(); 
-        int totalTime = (int) endTime - startTime; 
-        int seconds = totalTime / 1000; 
+        long totalTime = (endTime - startTime); 
         System.out.println("Time: " + seconds); 
     }
 }
