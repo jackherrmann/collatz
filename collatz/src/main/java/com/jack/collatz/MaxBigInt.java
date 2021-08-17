@@ -5,7 +5,7 @@ import java.math.BigInteger;
  * Hello world!
  *
  */
-public class App 
+public class MazBigInt 
 {
     public static void main( String[] args )
     {
