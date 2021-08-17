@@ -7,21 +7,30 @@ import java.math.BigInteger;
  */
 public class MaxBigInt 
 {
+
+
+    public void printBigInt(int power) {
+        System.out.println("10^" + power + "="); 
+        System.out.println(BigInteger.TEN.pow(20)); 
+        System.out.println(); 
+        System.out.println(); 
+        System.out.println(); 
+        System.out.println(); 
+    }
+
+
     public static void main( String[] args )
     {
-
-        System.out.println(BigInteger.TEN.pow(20)); 
-        System.out.println(BigInteger.TEN.pow(40));
-        System.out.println(BigInteger.TEN.pow(60));
-        System.out.println(BigInteger.TEN.pow(80));
-        System.out.println(BigInteger.TEN.pow(100));
-        System.out.println(BigInteger.TEN.pow(150));
-        System.out.println(BigInteger.TEN.pow(200));
-        System.out.println(BigInteger.TEN.pow(300));
-        System.out.println(BigInteger.TEN.pow(400));
-        System.out.println(BigInteger.TEN.pow(500));
-        System.out.println(BigInteger.TEN.pow(1000));
-
+        printBigInt(20); 
+        printBigInt(40); 
+        printBigInt(60); 
+        printBigInt(80); 
+        printBigInt(100); 
+        printBigInt(150); 
+        printBigInt(200); 
+        printBigInt(300); 
+        printBigInt(500);
+        printBigInt(1000);  
 
     }
 }
