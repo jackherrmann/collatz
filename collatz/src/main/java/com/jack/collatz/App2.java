@@ -8,7 +8,7 @@ public class App2
 {
     public static void main( String[] args )
     {
-        long startTime = System.getTimeInMillis(); 
+        long startTime = System.currentTimeMillis(); 
 
         System.out.println(args[0]); 
         int maxPow = Integer.parseInt(args[0]); 
@@ -45,8 +45,8 @@ public class App2
         } 
 
         System.out.println("Finished with highest: " + highest.toString()); 
-        long endTime = System.getTimeInMillis(); 
-        long totalTime = endTime - startTime; 
+        long endTime = System.currentTimeMillis(); 
+        int totalTime = (int) endTime - startTime; 
         int seconds = totalTime / 1000; 
         System.out.println("Time: " + seconds);  
     }
