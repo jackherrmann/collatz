@@ -22,8 +22,6 @@ public class App
 
         while (iteration.max(stopPoint).equals(stopPoint)) {
 
-            System.out.println("Looping"); 
-
             BigInteger result = BigInteger.ZERO.add(iteration); 
 
             while (result.max(iteration).equals(result)) {
